@@ -1,0 +1,8 @@
+CREATE TABLE my_users (
+  id int NOT NULL AUTO_INCREMENT,
+  user_login varchar(99),
+  user_password varchar(99),
+  user_email varchar(99),
+  user_code varchar (16000),
+  PRIMARY KEY (id)
+) ;
